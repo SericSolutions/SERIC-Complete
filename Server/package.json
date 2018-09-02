@@ -1,0 +1,26 @@
+{
+  "name": "seric",
+  "version": "1.0.0",
+  "description": "seric server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/SericSolutions/SERIC.git"
+  },
+  "author": "Asad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SericSolutions/SERIC/issues"
+  },
+  "homepage": "https://github.com/SericSolutions/SERIC#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.4.0",
+    "sleep": "^5.1.1",
+    "sqlite3": "^3.1.13"
+  }
+}
